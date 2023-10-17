@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 1 ES Website</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+			background-color: black;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;			
+        }
+
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #404040;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-title {
+            font-family: 'Consolas', monospace;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .dropdown {
+            float: right;
+            background-color: transparent;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #404040;
+            min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: black;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+		.btn {
+            background-color: #404040;
+            border: none;
+            color: white;
+            padding: 12px 16px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+		
+
+        .btn:hover {
+            background-color: black;
+        }
+
+
+        .main-content {
+            margin-top: 80px;
+            padding: 20px;
+            display: flex;
+			justify-content: center;
+        }
+
+        .center-left-content {
+            flex: 1;
+            padding-right: 20px;
+			text-align: center;
+        }
+
+        .center-right-content {
+            flex: 1;
+			padding-left: 20px;
+			text-align: center;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+			height: 35px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }    
+</style>
+     </head>
+     <body>
+      <header>
+        <div class="header-buttons">
+            <a href="Earth Science Website PETA DARK MODE.html"><button class="btn"><i class="fa fa-newspaper-o"></i>Article</button></a>
+        </div>
+        <center><h1 class="header-title">Members</h1></center>
+		   <div class="header-right">
+             <div class="dropdown">
+              <button class="dropdown"><i class="fa fa-paint-brush "></i>Themes .</button>
+              <div class="dropdown-content">
+                <a href="Members ES website.html">Light</a>
+                <a href="Members ES website DARK MODE.html">Dark</a>
+				<button class="dropdown">_</button>
+				<div class="dropdown-content">
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="center-content">
+            <div style="color:white;"><h1>Members:</h1></div>
+			<div style="max-width:600px; word-wrap:break-word; color:white;">Faith Dela Cruz</div>
+			<div style="max-width:600px; word-wrap:break-word; color:white;">Gianne Bermejo</div>
+			<div style="max-width:600px; word-wrap:break-word; color:white;">Uriel Zion Tinoy</div>
+			<div style="max-width:600px; word-wrap:break-word; color:white;">Lhorraine Mie Monterey</div>
+			<div style="max-width:600px; word-wrap:break-word; color:white;">Rein Katherine Horoiwa</div>
+			<div style="max-width:600px; word-wrap:break-word; color:white;">Sharlene Ponado</div>
+			<div style="max-width:600px; word-wrap:break-word; color:white;">Krizelle Damaso Mangaoil</div>
+			<div style="max-width:600px; word-wrap:break-word; color:white;">Ishee Coquia</div>
+			<div style="max-width:600px; word-wrap:break-word; color:white;">Josefino Mores Roan III</div>
+        </div>
+    </div>
+  <div class="footer">
+  <p>Made by Group 1</p>
+  </div>
+</body>
+</html>
